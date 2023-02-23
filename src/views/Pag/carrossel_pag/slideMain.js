@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 
 
-//Quero criar este componente para a pagina principal
+
 //Verificar depois
 const Carrou = () => {
     return (
@@ -12,7 +12,7 @@ const Carrou = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '40vh' // ajuste a altura de acordo com a necessidade
+        height: '40vh' // aqui é para ajustar a altura de acordo com a necessidade
       }}>
         <Carousel>
                         <Carousel.Item interval={1000}>

@@ -5,12 +5,15 @@ import './App.css';
 import Comecar from './Pag/main';
 //Carousel
 import Carrou from './Pag/carrossel_pag/slideMain';
+//acordation
+import BasicExample from './Pag/Acordations/Accordat';
 
 function App() {
     return (
         <>
             <Comecar />
             <Carrou />
+            <BasicExample />
         </>
     );
 }
